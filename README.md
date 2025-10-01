@@ -94,7 +94,7 @@ _Breakdown of cancellation rates and reasons by both customer and driver._
 
 -Targeted Vehicle Optimization: Provides granular analysis of success rates, value, and ratings per vehicle type, enabling data-driven fleet and service management.
 
--Actionable Cancellation Diagnostics: Clearly dissects cancellations by initiator (customer vs. driver) and reason, offering immediate insights for improving service reliability and reducing lost revenue.
+- Actionable Cancellation Diagnostics: Clearly dissects cancellations by initiator (customer vs. driver) and reason, offering immediate insights for improving service reliability and reducing lost revenue.
 ---
 
 ## 🎯 Key Learnings
