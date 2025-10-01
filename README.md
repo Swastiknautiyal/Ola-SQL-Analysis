@@ -1,94 +1,70 @@
-Ola SQL Analysis 🚖
+# 🚖 Ola App Bookings Analysis (SQL + Power BI)
 
+End-to-end SQL project analyzing Ola ride booking data — from raw data exploration, building analytical SQL views, and performing EDA, to designing an interactive Power BI dashboard for visualization.  
 
+**Tech Stack:** SQL • MySQL • Power BI • GitHub  
 
-This project explores ride booking data from Ola using SQL. The goal was to understand booking trends, customer behavior, and driver performance by writing queries and creating views for analysis.
+---
 
+## 📖 Overview
+This project focuses on analyzing an **Ola ride bookings dataset**. The workflow covers the end-to-end process — starting with SQL queries to filter, aggregate, and create analytical views, then exploring customer and driver behavior, cancellations, revenues, and ratings.  
 
+The goal is to transform raw booking data into meaningful insights and build a Power BI dashboard that highlights **customer trends, cancellations, payments, and revenue performance**.  
 
-📂 What’s inside
+---
 
+## 🧹 SQL Analysis Pipeline (Step Highlights)
+- **Successful Bookings** – filter rides where status = success  
+- **Average Distance by Vehicle Type** – calculate typical ride lengths  
+- **Customer Cancellations** – count cancelled rides by customers  
+- **Top 5 Frequent Customers** – identify loyal/high-frequency riders  
+- **Driver Cancellations** – track personal/car-related cancellation reasons  
+- **Prime Sedan Ratings** – min & max driver ratings for specific vehicle type  
+- **Payment Insights** – focus on UPI transactions  
+- **Customer Experience** – average ratings by vehicle type  
+- **Revenue Analysis** – total booking value of successful rides  
+- **Incomplete Rides** – track reasons for incomplete bookings  
 
+Each query was built as a **SQL View** for reusability and integration with BI tools.  
 
-ola\_analysis.sql → Contains all SQL queries and views for analysis
+---
 
+## 📊 Exploratory Data Analysis (EDA)
+- Ride success vs cancellations  
+- Revenue contribution by vehicle category  
+- Cancellation reasons (customer vs driver)  
+- Payment method preferences (UPI vs others)  
+- Ratings distribution by vehicle type  
+- High-value and high-frequency customers  
 
+---
 
-Sample dataset → Bookings data used for exploration (not included here for privacy)
+## 📊 Power BI Dashboard
+Here’s a preview of the interactive dashboard built in Power BI:  
 
+![Dashboard Preview](images/dashboard.png)
 
+### Dashboard Highlights:
+- **KPIs**: Total revenue, success rate, cancellation breakdown  
+- **Charts**:  
+  - Avg distance by vehicle type  
+  - Customer rating distribution  
+  - Cancellations by reason  
+  - Top 5 frequent customers  
+  - Payment method share  
+- **Filters**: By vehicle type, status, and time  
 
-🔎 Analysis Performed
+---
 
+## 🎯 Key Learnings
+- How to design reusable **SQL views** for analysis.  
+- Importance of separating **customer vs driver cancellation reasons**.  
+- Integrating SQL outputs directly into **Power BI** for storytelling.  
+- Structuring dashboards to provide both **business KPIs and operational details**.  
 
+---
 
-The script covers a variety of business questions, such as:
-
-
-
-Successful bookings – how many rides were completed successfully.
-
-
-
-Average ride distance by vehicle type – comparing different categories like Mini, Sedan, Prime.
-
-
-
-Cancellations by customers and drivers – finding reasons for dropped rides.
-
-
-
-Top 5 frequent customers – identifying loyal users.
-
-
-
-Driver performance issues – cancellations due to personal or car problems.
-
-
-
-Ratings insights – highest and lowest driver ratings for Prime Sedan.
-
-
-
-UPI transactions – rides paid through digital payment methods.
-
-
-
-Customer satisfaction – average customer rating grouped by vehicle type.
-
-
-
-Revenue calculation – total booking value of successful rides.
-
-
-
-Incomplete rides – listing reasons for unfinished trips.
-
-
-
-🛠️ Skills Used
-
-
-
-SQL Views
-
-
-
-Aggregate Functions (SUM, AVG, COUNT, MAX, MIN)
-
-
-
-Filtering and Grouping
-
-
-
-Window Functions (for ranking and top customer analysis)
-
-
-
-📈 Why this project matters
-
-
-
-Analyzing ride-hailing data helps uncover trends in customer preferences, driver performance, and overall business efficiency. This kind of analysis can be useful for improving customer experience and reducing ride cancellations.
-
+## 📬 Contact
+👤 Swastik Nautiyal  
+🔗 [LinkedIn](#)  
+📧 nautiyalswastik@gmail.com  
