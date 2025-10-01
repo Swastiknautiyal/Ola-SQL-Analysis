@@ -42,8 +42,8 @@ Each query was built as a **SQL View** for reusability and integration with BI t
 ## 📊 Power BI Dashboard
 Here’s a preview of the interactive dashboard built in Power BI:  
 
-![Dashboard Preview]([(https://github.com/Swastiknautiyal/Ola-SQL-Analysis/blob/main/visuals/ss1.png),
-https://github.com/Swastiknautiyal/Ola-SQL-Analysis/blob/main/visuals/ss2.png, https://github.com/Swastiknautiyal/Ola-SQL-Analysis/blob/main/visuals/ss3.png, https://github.com/Swastiknautiyal/Ola-SQL-Analysis/blob/main/visuals/ss4.png, https://github.com/Swastiknautiyal/Ola-SQL-Analysis/blob/main/visuals/ss5.png)]
+![Dashboard Preview]([(https://github.com/Swastiknautiyal/Ola-SQL-Analysis/blob/main/visuals/ss1.png)],
+[https://github.com/Swastiknautiyal/Ola-SQL-Analysis/blob/main/visuals/ss2.png], [https://github.com/Swastiknautiyal/Ola-SQL-Analysis/blob/main/visuals/ss3.png], [https://github.com/Swastiknautiyal/Ola-SQL-Analysis/blob/main/visuals/ss4.png], [https://github.com/Swastiknautiyal/Ola-SQL-Analysis/blob/main/visuals/ss5.png)]
 
 ### Dashboard Highlights:
 - **KPIs**: Total revenue, success rate, cancellation breakdown  
